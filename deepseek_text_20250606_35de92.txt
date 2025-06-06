@@ -1,0 +1,17 @@
+boberdoo-render/
+├── app/
+│   ├── __init__.py
+│   ├── main.py          # Our main application code
+│   ├── models.py        # Database models
+│   ├── schemas.py       # Pydantic schemas
+│   └── routes/          # FastAPI routes
+│       ├── leads.py
+│       ├── users.py
+│       └── accounting.py
+├── tests/
+│   └── test_main.py
+├── requirements.txt
+├── runtime.txt
+├── Dockerfile
+├── render.yaml
+└── README.md
